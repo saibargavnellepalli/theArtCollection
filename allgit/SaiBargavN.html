@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>theArtCollection</title>
+  <link rel="stylesheet" type="text/css" href="artCollection.css">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+  *{
+  margin: 1;
+  padding: 0.5;
+  }
+  body{
+   background-color: rgba(244,191,135,0.5);
+    background-size: cover;
+  }
+  .title{
+    font-family: 'Merienda';font-size: 22px;
+    font-family: Fantasy;
+     font-family: "Lucida Console", "Courier New", monospace;
+box-shadow: yellow;
+width:500px;
+height: 300px;
+
+
+   
+  }
+
+  .logos{
+    margin-left:120px;
+  }
+h1{
+  background-color: gray;
+  background-color:black;
+  width:100%;
+
+  font-size:60px;
+  text-align:center;
+  color:white;
+  border-radius:27.5px;
+  padding: 00px;
+  margin-top: 5px;
+}
+
+.Quote{
+  text-align:center;
+  background-image:url("11.jpg");
+  padding:3px;
+  margin-top:0px;
+  margin-bottom:2px;
+ margin-left: 30px;
+
+
+}
+
+.Pics{
+
+margin-left: 40px;
+float: left;
+width: 200px;
+
+}
+
+.PicContainer {
+  content: "";
+   clear: both;
+   display: flex;
+   position: relative;
+   overflow: hidden;
+   margin-left: 90px;
+
+
+
+}
+.PicContainer img{
+  width: 230px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+
+
+
+
+.img{
+  width: 100%;
+  height: auto;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+  margin-bottom:20px;
+  overflow: hidden;
+  background-color:  #e6ffe6;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #00ff00;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.fav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background:none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+  background:none;
+
+}
+
+
+.myspace0{
+   color:white;
+   text-align:center;
+   background-color:black;
+}
+.myspace1{
+  margin-right: 30.5%;
+  width:100%;
+  float: left;
+
+}
+.myspace2{
+  margin-left:5%;
+  float:left;
+}
+.myspace3{
+  margin-left:5%;
+}
+
+.hr{
+  float:right;
+  width:100%;
+}
+
+.credit{
+  margin-top:0px;
+  width:100%;
+  float:right;
+  text-align:center;
+  background-image:linear-gradient(rgba(139,0,139,0.5),rgba(250,250,210,1));
+  padding-top:20px;
+  padding-bottom:30px;
+  color: black;
+}
+.topnav{
+  margin: 10px;
+  margin-bottom:7.5px;
+  margin-top: -27px;
+}
+
+.menu-bar{
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-bottom:36px;
+
+}
+.menu-bar{
+  background-color: rgba(0,100,0);
+  text-align: center;
+  margin-top: -33px;
+
+
+}
+.menu-bar ul{
+  display: inline-flex;
+ list-style: none;
+  color: #fff;
+}
+.menu-bar ul li{
+  width: 120px;
+  margin:5px;
+  padding: -4px;
+}
+ 
+.menu-bar ul li a{
+text-decoration: none;
+color: white;
+}
+.active ,.menu-bar ul li:hover{
+  background:red;
+  border-radius: 3.5px;
+}
+.sub-menu-1{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background: green;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+  width: 70px;
+  padding: 6.5px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0px;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+  color: orange;
+}
+.PicContainer .pics1:hover{
+  background-color: yellow;
+
+}
+.mySlides {display:none;}
+.show{
+  margin-left: 300px;
+}
+.add{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  border-width: 30px;
+font-size: 25px;
+width: 800px;
+height: 20px;
+border-radius: 5px;
+}
+.zoom:hover {
+   transition: transform .5s;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); }
+.zoom2:hover {
+   transition: transform .5s;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); }
+  .zoom3:hover {
+   transition: transform .5s;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); }
+  .zoom4:hover {
+   transition: transform .5s;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); }
+  .credit{
+    border-radius: 70%;
+  }
+
+  .fa-facebook {
+  background: blue;
+color: white;
+padding: 160px;
+}
+.fa-instagram {
+  background: lime;
+  color: white;
+  margin-left: 40px;
+  padding: 10px;
+
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+    margin-left: 60px;
+  padding: 10px;
+}
+
+  </style>
+</head>
+<body>
+  
+    <div class="Title">
+       
+  <h1>theArtCollection</h1>
+</div>
+   <div class="menu-bar">
+  <ul>
+    <li class="active"><a href="#"> <i class="fa fa-home"> Home</i></li>
+     <li ><a href="#"> <i class="fa fa-user">About Us</i>
+<div class="sub-menu-1">
+  <ul>
+    <li><a href="#">Arts</li>
+      <li><a href="#">Become artist</a></li>
+        <li><a href="#">Team</a></li>
+  </ul>
+  </div>
+ </li>
+         <li><a href="#"> <i class="fa fa-clone"> Arts</i>
+         <div class="sub-menu-1">
+  <ul>
+    <li><a href="#">sculpture</a></li>
+      <li><a href="#">Architecture</a></li>
+        <li><a href="#">Literature</a></li>
+          <li><a href="#">Music</a></li>
+           <li><a href="#">Wood art</a></li>
+
+  </ul>
+  </div></li>
+       <li><a href="#"> <i class="fa fa-users"> Artists</i>
+              <div class="sub-menu-1">
+  <ul>
+    <li><a href="#">LeonardoDa </a></li>
+      <li><a href="#">Johannes </a></li>
+        <li><a href="#">Sandro Botticelli</a></li>
+          <li><a href="#">van Gogh</a></li>
+           <li><a href="#">Gustav Klimt</a></li>
+
+  </ul>
+  </div></li>
+        <li><!--<a href="#">--><a href ="CSShtml.html" target="_blank" > <i class="fa fa-person"> LOGIN</i></li>
+           <li><a href="#"> <i class="
+fa fa-menu"> SignUp</i></li>
+         <li><a href="#"> <i class="fa fa-edit"> <a href="httttt.html"> 2.0 web page</a></i></li>
+         <li><a href="#"> <i class="fa fa-phone"> Contact us</i>
+            <div class="sub-menu-1">
+  <ul>
+    <li><a href="#">+1800-6134 </a></li>
+      
+       
+
+  </ul>
+  </div></li>
+  
+
+</div>
+<div class="topnav">
+ <!-- <a class="active" href="#home"></a>
+  <a href="#LOGIN"></a>
+  <a href="#SignIn"></a>
+  <div class="search-container">
+    <form>
+      <input type="text" placeholder="Search your favourite art.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+  <div class="custom-select2" style="width: 201px;">
+    <button type="button" value="BLOG">BLOG</button>-->
+
+
+
+<div class="Quote">
+  <h2>"Art is the lie that enables us to realize the truth"</h2>
+  <h3><b>-</b><i>Pablo Picasso</i></h3>
+</div>
+
+<div class="PicContainer">
+<div class="zoom">
+  <div class="Pics1">
+    <img src="1.png" alt="1" >
+ </div>
+  </div>
+  <div class="zoom2">
+  <div class="Pics2">
+    <img src="2.png" alt="2" >
+  </div>
+</div>
+<div class="zoom3">
+  <div class="Pics3">
+    <img src="3.png" alt="3">
+  </div>
+</div>
+<div class="zoom4">
+  <div class="Pics4">
+    <img src="4.png" alt="4" >
+  </div>
+</div>
+
+</div>
+<div class="add">
+  <b><tt>World famous arts..in our site ..with affordable prices..</tt></b></div>
+<div class="show" style="max-width:500px">
+  
+  <img class="mySlides" src="s2.jpg" style="width:100%">
+  <img class="mySlides" src="s3.jpg" style="width:100%">
+  <img class="mySlides" src="s4.jpg" style="width:100%">
+  <img class="mySlides" src="s5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+<div class="myspace">
+  <div class="myspace0">
+    <h2>Top Picks for the Week</h2>
+  </div>
+  <div class="myspace1">
+    <div class="myspace2" >
+      <img src="5.jpg" width="200" height="250" alt="Portrait by Pablo Picasso">
+    </div>
+    <div class="myspace2">
+      <img src="6.jpg" width="200" height="250" alt="Mona Lisa by Leonardo Da Vinci">
+    </div>
+    <div class="myspace2">
+      <img src="7.jpg" width="200" height="250" alt="The Starry Night by Vincent van Gogh">
+    </div>
+    <div class="myspace2">
+      <img src="8.jpg" width="200" height="250" alt="Girl with a Pearl Earring by Johannes Vermeer">
+    </div>
+  </div>
+</div>
+
+<div class="hr">
+  <br>
+  <br>
+  <hr>
+</div>
+
+<h2>Follow us on...</h2>
+<div class="logo">
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+<a href="#" class="fa fa-youtube"></a>
+
+</div>
+<div class="credit">
+  <h2>Meet our creators</h2>
+  <h4>Nellepalli Sai Bargav</h4>
+  <h4>Haridas P</h4>
+  <h4>Lakshit Lohar</h4>
+  <h4>Kasarla Vishwas</h4>
+</div>
+
+
+
+
+
+</body>
+</html>
